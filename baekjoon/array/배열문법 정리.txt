@@ -1,0 +1,15 @@
+# split()은 ()안의 구분자를 기준으로 자른다
+# input().split() 은 input()으로 받고 공백을 기준으로 잘라 list로 만든다. 그래서 띄어쓰기로 각각 저장되는 거다 # a,b =input().split()
+# N,X=list(map(int,input().split()))도 되고 N,X=map(int,input().split())
+
+# map(f, iterable한 자료형) # 우측을 function에 집어넣어 map 객체를 반환다 # 그래서 보통 list나 tuple을 덮어씌운다
+# list(map(int, input().split())
+# int()함수는 list를 int로 바꾸어 줄 수 없기에 int(input().split())은 안 된다
+# array.count(object) >>> array에서 object와 같은 값을 가지는 개수를 반환한다
+
+
+
+
+# list comprehension == [ ( 변수를 활용한 값 ) for ( 사용할 변수 이름 ) in ( 순회할 수 있는 값 )] >>> list로 반환시킨다
+# array = [ int(input()) for _ in range(9)]
+# array.index(ojbect) >>> object가 존재하는 첫 index 반환
